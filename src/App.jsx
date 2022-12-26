@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Bbox from './component/Bbox'
+import Bboxnew from './component/Bboxnew'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,7 +7,9 @@ function App() {
   return (
     <>
     INPUT CITY NAME
-   <Bbox/>
+    <Bboxnew/>
+   {/*<Bbox/>*/}
+
     </>
     
   )
