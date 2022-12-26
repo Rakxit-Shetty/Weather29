@@ -46,17 +46,59 @@ html {
   height: 100%;
   background: #dad5d5;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:transparent;
+  color: white;
+  font-size: x-small;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+a:link {
+  color: rgb(255, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(53, 99, 168);
+  font-weight: 400;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  font-weight: 400;
+  color: rgb(255, 255, 251);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
 .box {
   width: 25vw;
-  height: 60vh;
+  height: 50vh;
   border-radius: 0.5rem;
   box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2);
   /*background-image: url(/static/media/wthback.9ba04643.jpg);*/
   background-size: contain; 
   position: relative;
   overflow: hidden;
-  -webkit-filter: drop-shadow(8px 8px 10px grey);
-  filter: drop-shadow(8px 8px 10px rgb(33, 12, 12));
+  -webkit-filter: drop-shadow(8px 8px 10px rgb(72, 32, 32));
+  filter: drop-shadow(8px 8px 10px rgb(2, 2, 2));
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   min-width: 20rem;
@@ -138,10 +180,10 @@ html {
   z-index: 4;
 }
 .location {
-  margin-top: -2.5rem;
+  margin-top: -5rem;
   text-align: center;
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-stretch: expanded;
   color: #fff;
   text-transform: capitalize;
@@ -181,14 +223,16 @@ html {
   color: #fff;
 }
 .tempmin_max {
-  margin-top: 3rem;
+  margin-top: 3.5rem;
   font-weight: 300;
   font-size: 1.2rem;
   
 }
 p::first-letter {
   text-transform:capitalize;
+  
 }
+
 
 @-webkit-keyframes fas-anime {
   0% {

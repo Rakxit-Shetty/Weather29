@@ -41,7 +41,6 @@ useEffect(() => {
           <h1 className='location'>{input}</h1>
           <h2 className='temp'>{data}</h2>
           <h3 className='tempmin_max'><p>{desp}</p><br></br>{minmax}</h3>
-          
 
         </div>
 
@@ -49,7 +48,15 @@ useEffect(() => {
         <div className='wave -two'></div>
         
         
+	</div>
+  
+  
+  
+    <div class="footer">
+  	<div>&#169;2022 to Learn React JS components by 
+		<a href="https://rakshitshetty.netlify.app"> &nbsp; Rakxit-Shetty</a>
     </div>
+	</div>
   </>
     
   )
