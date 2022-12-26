@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import Bboxnew from './component/Bboxnew'
+import Bbox from './component/Bbox'
+//import {QueryClientProvider,QueryClient} from 'react-query'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+  //const client= new QueryClient()
 
   return (
     <>
-    INPUT CITY NAME
-    <Bboxnew/>
-   {/*<Bbox/>*/}
-
+    <Bbox/>
     </>
     
   )
