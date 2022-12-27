@@ -102,11 +102,11 @@ a:active {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   min-width: 20rem;
-  min-height: 35rem;
+  min-height: 30rem;
 }
 .wave {
   position: absolute;
-  top: 85%;
+  top: 90%;
   left: 35%;
   background: #000;
   width: 70rem;
@@ -271,7 +271,7 @@ p::first-letter {
     height: 80vh;
   }
   .wave {
-    top: 100%;
+    top: 70%;
   }
 }
 body > span {
@@ -289,6 +289,7 @@ body > span {
   -webkit-align-items: center;
   align-items: center;
   margin-bottom: 4em;
+  
 }
 .inputField {
   height: 40%;
@@ -301,6 +302,7 @@ body > span {
   outline: none;
   font-size: 1.1rem;
   margin-top: 20px;
+  z-index: 4;
 }
 .errorMsg {
   text-align: center;
