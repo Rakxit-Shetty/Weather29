@@ -23,9 +23,7 @@ if(isLoading){
 
         <input type="text" value={city} onChange={(e)=>setCity(e.target.value)}></input>
 
-        {/*<div>{
-        data?.main.temp
-        }</div>*/}
+        
         <Showdata city={city}/>
         
     </div>

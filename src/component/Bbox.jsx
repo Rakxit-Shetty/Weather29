@@ -53,7 +53,7 @@ useEffect(() => {
   
   
     <div class="footer">
-  	<div>&#169;2022 to Learn React JS components by 
+  	<div>&#169; 2022 to Learn React JS components by 
 		<a href="https://rakshitshetty.netlify.app"> &nbsp; Rakxit-Shetty</a>
     </div>
 	</div>
