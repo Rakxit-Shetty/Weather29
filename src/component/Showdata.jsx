@@ -13,7 +13,6 @@ useEffect(() => {
  refetch
 }, [props.city])
 
-
   if(isError){
       return <h1>No data</h1>
   }
