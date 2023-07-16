@@ -96,7 +96,7 @@ export default function Bbox() {
 
       <div className="footer">
         <div>
-          &#169; {new Date().getFullYear()} to Learn React JS components by
+          {new Date().getFullYear()} to Learn React JS components by
           <a href="https://rakshithshetty.netlify.app"> &nbsp; Rakxit-Shetty</a>
         </div>
       </div>
